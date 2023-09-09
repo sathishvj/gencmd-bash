@@ -81,7 +81,7 @@ if [ -z "$MAKERSUITE_API_KEY" ]; then
 	exit 2
 fi
 
-#echo "After:"
+#echo "Before shift:"
 #echo "number=$NUMBER"
 #echo "os=$OS"
 #echo "others=$@"
@@ -90,7 +90,7 @@ fi
 
 shift "$(( OPTIND-1 ))"
 
-#echo "End:"
+#echo "After shift:"
 #echo "number=$NUMBER"
 #echo "os=$OS"
 #echo "others=$@"
